@@ -42,7 +42,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: cheqr/pessoas-ci:${{ github.sha }}
+          tags: nadapebe/pi_nathan_agil-ci:${{ github.sha }}
 
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@master
